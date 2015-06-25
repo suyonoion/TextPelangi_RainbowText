@@ -14,7 +14,7 @@ Custom EditText
 
 Demo : 
 
-.....
+https://raw.githubusercontent.com/suyonoion/TextPelangi_RainbowText/master/demo/TextPelangi.apk
 
 Screenshot 1 :
 

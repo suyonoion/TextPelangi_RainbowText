@@ -28,7 +28,7 @@ public class MainActivity extends Activity {
         github.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="https://github.com/suyonoion/TextClock";
+                String url="https://github.com/suyonoion/TextPelangi_RainbowText";
                 Uri uriUrl = Uri.parse(url);
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
@@ -37,7 +37,7 @@ public class MainActivity extends Activity {
         smali.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String url="https://github.com/suyonoion/TextClock";
+                String url="https://www.dropbox.com/s/1py29rw1i2ei21o/%5BGuide%5DTextPelangi.zip?dl=0";
                 Uri uriUrl = Uri.parse(url);
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);

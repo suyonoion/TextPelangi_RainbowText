@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="5dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50dp" android:gravity="center">
+        <com.suyonoion.textpelangi.TextViewPelangi android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="KODE UTAMA" android:gravity="center" android:textSize="25sp" android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp" android:gravity="center" android:background="#8023a606">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kode TextView Pelangi" android:textColor="#ffffffff"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:background="#2092d283" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp"
+        android:gravity="center">
+        <com.suyonoion.textpelangi.EditTextPelangi android:id="@+id/kode_textview_pelangi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\u003c\u0063\u006f\u006d\u002e\u0073\u0075\u0079\u006f\u006e\u006f\u0069\u006f\u006e\u002e\u0074\u0065\u0078\u0074\u0070\u0065\u006c\u0061\u006e\u0067\u0069\u002e\u0054\u0065\u0078\u0074\u0056\u0069\u0065\u0077\u0050\u0065\u006c\u0061\u006e\u0067\u0069\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u006c\u0061\u0079\u006f\u0075\u0074\u005f\u0077\u0069\u0064\u0074\u0068\u003d\u0022\u0077\u0072\u0061\u0070\u005f\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u0022\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u006c\u0061\u0079\u006f\u0075\u0074\u005f\u0068\u0065\u0069\u0067\u0068\u0074\u003d\u0022\u0077\u0072\u0061\u0070\u005f\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u0022\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u0074\u0065\u0078\u0074\u003d\u0022\u0054\u0065\u0078\u0074\u0020\u004b\u0061\u006d\u0075\u0022\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u0067\u0072\u0061\u0076\u0069\u0074\u0079\u003d\u0022\u0063\u0065\u006e\u0074\u0065\u0072\u0022\u002f\u003e"
+            android:editable="false" />
+        <Button style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="20dp" android:text="Copy" android:id="@+id/bt_copy1" android:background="#8023a606" android:textColor="#ffffffff"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp" android:gravity="center" android:background="#8023a606">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kode EditText Pelangi" android:textColor="#ffffffff"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:background="#2092d283" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp"
+        android:gravity="center">
+        <com.suyonoion.textpelangi.EditTextPelangi android:id="@+id/kode_edittext_pelangi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="\u003c\u0063\u006f\u006d\u002e\u0073\u0075\u0079\u006f\u006e\u006f\u0069\u006f\u006e\u002e\u0074\u0065\u0078\u0074\u0070\u0065\u006c\u0061\u006e\u0067\u0069\u002e\u0045\u0064\u0069\u0074\u0054\u0065\u0078\u0074\u0050\u0065\u006c\u0061\u006e\u0067\u0069\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u006c\u0061\u0079\u006f\u0075\u0074\u005f\u0077\u0069\u0064\u0074\u0068\u003d\u0022\u0077\u0072\u0061\u0070\u005f\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u0022\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u006c\u0061\u0079\u006f\u0075\u0074\u005f\u0068\u0065\u0069\u0067\u0068\u0074\u003d\u0022\u0077\u0072\u0061\u0070\u005f\u0063\u006f\u006e\u0074\u0065\u006e\u0074\u0022\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u0074\u0065\u0078\u0074\u003d\u0022\u0054\u0065\u0078\u0074\u0020\u004b\u0061\u006d\u0075\u0022\u0020\u0061\u006e\u0064\u0072\u006f\u0069\u0064\u003a\u0067\u0072\u0061\u0076\u0069\u0074\u0079\u003d\u0022\u0063\u0065\u006e\u0074\u0065\u0072\u0022\u002f\u003e"
+            android:editable="false" />
+        <Button style="?android:attr/buttonStyleSmall" android:layout_width="wrap_content" android:layout_height="20dp" android:text="Copy" android:id="@+id/bt_copy2" android:background="#8023a606" android:textColor="#ffffffff"/>
+    </LinearLayout>
+</LinearLayout>

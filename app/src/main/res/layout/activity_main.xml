@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:padding="5dp">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="50dp" android:gravity="center">
+        <com.suyonoion.textpelangi.TextViewPelangi android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RAINBOW TEXT" android:gravity="center" android:textSize="25sp" android:textStyle="bold"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp" android:gravity="center" android:background="#8023a606">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contoh TextView Pelangi" android:textColor="#ffffffff"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:background="#2092d283" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp">
+        <com.suyonoion.textpelangi.TextViewPelangi android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="If you are not willing to learn, no one can help you. If you are determined to learn, no one can stop you." android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp" android:gravity="center" android:background="#8023a606">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Contoh EditText Pelangi" android:textColor="#ffffffff"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="center" android:background="#2092d283" android:paddingTop="0dp" android:paddingLeft="5dp" android:paddingRight="5dp">
+        <com.suyonoion.textpelangi.EditTextPelangi android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Bila kau tak tahan lelahnya belajar, maka kau harus tahan menanggung perihnya kebodohan." android:gravity="center"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:gravity="bottom" android:paddingLeft="5dp" android:paddingRight="5dp" android:paddingBottom="10dp"
+        android:paddingTop="30dp">
+        <Button style="?android:attr/buttonStyleSmall" android:layout_width="fill_parent" android:layout_height="20dp" android:text="KodeXML" android:id="@+id/kode__pelangi" android:background="#8023a606" android:textColor="#ffffffff" android:layout_weight="1"/>
+        <Button style="?android:attr/buttonStyleSmall" android:layout_width="fill_parent" android:layout_height="20dp" android:text="Java" android:id="@+id/github" android:background="#8023a606" android:textColor="#ffffffff" android:layout_weight="1"/>
+        <Button style="?android:attr/buttonStyleSmall" android:layout_width="fill_parent" android:layout_height="20dp" android:text="Smali" android:id="@+id/smali" android:background="#8023a606" android:textColor="#ffffffff" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

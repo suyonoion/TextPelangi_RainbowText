@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="merah">#ffff0500</color>
+    <color name="kuning">#f9ba15</color>
+    <color name="hijau">#d823a606</color>
+    <color name="biru">#ff0d14ff</color>
+    <color name="purple">#ff7e00d2</color>
+    <color name="anu_kolor">#ffff07d0</color>
+    <color name="anu1_kolor">#ff870800</color>
+    <integer-array name="daftar_warna_pelangi">
+        <item>@color/merah</item>
+        <item>@color/kuning</item>
+        <item>@color/hijau</item>
+        <item>@color/biru</item>
+        <item>@color/purple</item>
+        <item>@color/anu_kolor</item>
+        <item>@color/anu1_kolor</item>
+    </integer-array>
+</resources>
